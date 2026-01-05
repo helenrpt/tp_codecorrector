@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ba795880-d637-4a97-8635-7bdbcc8efc5a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>serial_port.py</StartupFile>
+    <StartupFile>CodeDectectorCorrector.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
