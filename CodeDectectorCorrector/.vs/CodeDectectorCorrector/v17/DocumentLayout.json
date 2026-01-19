@@ -7,12 +7,15 @@
       "RelativeMoniker": "D:0:0:{BA795880-D637-4A97-8635-7BDBCC8EFC5A}|CodeDectectorCorrector.pyproj|solutionrelative:CodeDectectorCorrector.py||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA795880-D637-4A97-8635-7BDBCC8EFC5A}|CodeDectectorCorrector.pyproj|C:\\Users\\a511018\\Desktop\\USMB MASTER\\ProjetTP\\CodeDectectorCorrector\\serial_port.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{BA795880-D637-4A97-8635-7BDBCC8EFC5A}|CodeDectectorCorrector.pyproj|solutionrelative:serial_port.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BA795880-D637-4A97-8635-7BDBCC8EFC5A}|CodeDectectorCorrector.pyproj|C:\\Users\\a511018\\Desktop\\USMB MASTER\\ProjetTP\\CodeDectectorCorrector\\codeGenerator.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{BA795880-D637-4A97-8635-7BDBCC8EFC5A}|CodeDectectorCorrector.pyproj|solutionrelative:codeGenerator.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\win_disk\\CEX_test_SIL\\Scripts\\dtc_id_calculator.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA795880-D637-4A97-8635-7BDBCC8EFC5A}|CodeDectectorCorrector.pyproj|C:\\Users\\a511018\\Desktop\\USMB MASTER\\ProjetTP\\CodeDectectorCorrector\\serial_port.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BA795880-D637-4A97-8635-7BDBCC8EFC5A}|CodeDectectorCorrector.pyproj|solutionrelative:serial_port.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +25,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +37,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "CodeDectectorCorrector.py",
+              "DocumentMoniker": "C:\\Users\\a511018\\Desktop\\USMB MASTER\\ProjetTP\\CodeDectectorCorrector\\CodeDectectorCorrector.py",
+              "RelativeDocumentMoniker": "CodeDectectorCorrector.py",
+              "ToolTip": "C:\\Users\\a511018\\Desktop\\USMB MASTER\\ProjetTP\\CodeDectectorCorrector\\CodeDectectorCorrector.py",
+              "RelativeToolTip": "CodeDectectorCorrector.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-01-19T15:14:40.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dtc_id_calculator.py",
+              "DocumentMoniker": "C:\\win_disk\\CEX_test_SIL\\Scripts\\dtc_id_calculator.py",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\win_disk\\CEX_test_SIL\\Scripts\\dtc_id_calculator.py",
+              "ToolTip": "C:\\win_disk\\CEX_test_SIL\\Scripts\\dtc_id_calculator.py",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\win_disk\\CEX_test_SIL\\Scripts\\dtc_id_calculator.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-01-12T13:10:37.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "serial_port.py",
               "DocumentMoniker": "C:\\Users\\a511018\\Desktop\\USMB MASTER\\ProjetTP\\CodeDectectorCorrector\\serial_port.py",
               "RelativeDocumentMoniker": "serial_port.py",
@@ -42,31 +71,17 @@
               "RelativeToolTip": "serial_port.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2026-01-05T14:31:22.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T14:31:22.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CodeDectectorCorrector.py",
-              "DocumentMoniker": "C:\\Users\\a511018\\Desktop\\USMB MASTER\\ProjetTP\\CodeDectectorCorrector\\CodeDectectorCorrector.py",
-              "RelativeDocumentMoniker": "CodeDectectorCorrector.py",
-              "ToolTip": "C:\\Users\\a511018\\Desktop\\USMB MASTER\\ProjetTP\\CodeDectectorCorrector\\CodeDectectorCorrector.py",
-              "RelativeToolTip": "CodeDectectorCorrector.py",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAF8AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2026-01-05T13:17:39.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "codeGenerator.py",
               "DocumentMoniker": "C:\\Users\\a511018\\Desktop\\USMB MASTER\\ProjetTP\\CodeDectectorCorrector\\codeGenerator.py",
               "RelativeDocumentMoniker": "codeGenerator.py",
               "ToolTip": "C:\\Users\\a511018\\Desktop\\USMB MASTER\\ProjetTP\\CodeDectectorCorrector\\codeGenerator.py",
               "RelativeToolTip": "codeGenerator.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2026-01-05T13:34:11.843Z",
               "EditorCaption": ""

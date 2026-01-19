@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>883</width>
-    <height>600</height>
+    <width>879</width>
+    <height>728</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,112 +15,7 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
-    <item row="1" column="1">
-     <widget class="QPushButton" name="pushButtonTx">
-      <property name="font">
-       <font>
-        <pointsize>11</pointsize>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="text">
-       <string>Tramsettre</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="2">
-     <widget class="QFrame" name="frameRX">
-      <property name="frameShape">
-       <enum>QFrame::StyledPanel</enum>
-      </property>
-      <property name="frameShadow">
-       <enum>QFrame::Plain</enum>
-      </property>
-      <property name="lineWidth">
-       <number>2</number>
-      </property>
-      <layout class="QGridLayout" name="gridLayout_3">
-       <property name="leftMargin">
-        <number>5</number>
-       </property>
-       <property name="topMargin">
-        <number>5</number>
-       </property>
-       <property name="rightMargin">
-        <number>5</number>
-       </property>
-       <property name="spacing">
-        <number>3</number>
-       </property>
-       <item row="2" column="0" colspan="2">
-        <widget class="QLineEdit" name="lineRxHexa"/>
-       </item>
-       <item row="5" column="1">
-        <widget class="QLineEdit" name="lineNbrError">
-         <property name="maximumSize">
-          <size>
-           <width>50</width>
-           <height>16777215</height>
-          </size>
-         </property>
-        </widget>
-       </item>
-       <item row="8" column="0" colspan="2">
-        <widget class="QLineEdit" name="lineCorrectedBin">
-         <property name="text">
-          <string>0b</string>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="0" colspan="2">
-        <widget class="QLineEdit" name="lineRxBin"/>
-       </item>
-       <item row="3" column="0" colspan="2">
-        <widget class="QLabel" name="labelRxBin">
-         <property name="text">
-          <string>Mot reçu (bin):</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="0" colspan="2">
-        <widget class="QLabel" name="labelRxHexa">
-         <property name="text">
-          <string>Mot reçu (Hex) :</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="0" colspan="2">
-        <widget class="QLabel" name="labelRX">
-         <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;RX&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="0">
-        <widget class="QLabel" name="labelErrordetect">
-         <property name="text">
-          <string>Nombre erreur détectées :</string>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="0">
-        <widget class="QLabel" name="labelCorrected">
-         <property name="text">
-          <string>Mot corrigé :</string>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="0" colspan="2">
-        <widget class="QLineEdit" name="lineCorrectedHexa">
-         <property name="text">
-          <string>0x</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </widget>
-    </item>
-    <item row="1" column="0">
+    <item row="2" column="0" rowspan="4">
      <widget class="QFrame" name="frameTX">
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>
@@ -144,38 +39,14 @@
        <property name="spacing">
         <number>3</number>
        </property>
-       <item row="0" column="0">
-        <widget class="QLabel" name="labelTX">
-         <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;TX&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="0">
-        <widget class="QLabel" name="labelMotGene">
-         <property name="text">
-          <string>Mot du code généré :</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="0">
-        <widget class="QLabel" name="labelMotInfo">
-         <property name="text">
-          <string>Mot information :</string>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="0" colspan="2">
-        <widget class="QLineEdit" name="lineMotGene"/>
-       </item>
-       <item row="2" column="0">
-        <widget class="QLineEdit" name="lineMotInfo">
+       <item row="1" column="1">
+        <widget class="QLabel" name="labelTxInfo">
          <property name="text">
           <string/>
          </property>
         </widget>
        </item>
-       <item row="6" column="0">
+       <item row="8" column="0" colspan="2">
         <widget class="QFrame" name="frameBin">
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
@@ -199,77 +70,6 @@
           <property name="bottomMargin">
            <number>1</number>
           </property>
-          <item>
-           <widget class="QPushButton" name="b22">
-            <property name="maximumSize">
-             <size>
-              <width>20</width>
-              <height>16777215</height>
-             </size>
-            </property>
-            <property name="text">
-             <string>0</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QPushButton" name="b21">
-            <property name="maximumSize">
-             <size>
-              <width>20</width>
-              <height>16777215</height>
-             </size>
-            </property>
-            <property name="text">
-             <string>0</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QPushButton" name="b20">
-            <property name="maximumSize">
-             <size>
-              <width>20</width>
-              <height>16777215</height>
-             </size>
-            </property>
-            <property name="text">
-             <string>0</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QPushButton" name="b19">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>20</width>
-              <height>16777215</height>
-             </size>
-            </property>
-            <property name="text">
-             <string>0</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QPushButton" name="b18">
-            <property name="maximumSize">
-             <size>
-              <width>20</width>
-              <height>16777215</height>
-             </size>
-            </property>
-            <property name="text">
-             <string>0</string>
-            </property>
-           </widget>
-          </item>
           <item>
            <widget class="QPushButton" name="b17">
             <property name="maximumSize">
@@ -510,14 +310,185 @@
          </layout>
         </widget>
        </item>
-       <item row="3" column="0">
+       <item row="6" column="0" colspan="2">
+        <widget class="QLabel" name="labelMotGene">
+         <property name="text">
+          <string>Mot du code généré :</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="labelTX">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;TX&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0" colspan="3">
+        <widget class="QLineEdit" name="lineMotGene"/>
+       </item>
+       <item row="5" column="0" colspan="2">
         <widget class="QPushButton" name="pushButtonGenerer">
          <property name="text">
           <string>Générer</string>
          </property>
         </widget>
        </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>0x</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="lineMotInfo">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="QLabel" name="labelMotInfo">
+         <property name="text">
+          <string>Mot information (Hex) :</string>
+         </property>
+        </widget>
+       </item>
       </layout>
+     </widget>
+    </item>
+    <item row="2" column="2" rowspan="4">
+     <widget class="QFrame" name="frameRX">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <property name="leftMargin">
+        <number>5</number>
+       </property>
+       <property name="topMargin">
+        <number>5</number>
+       </property>
+       <property name="rightMargin">
+        <number>5</number>
+       </property>
+       <property name="spacing">
+        <number>3</number>
+       </property>
+       <item row="4" column="0" colspan="2">
+        <widget class="QLineEdit" name="lineRxBin"/>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLineEdit" name="lineNbrError">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QLabel" name="labelRxHexa">
+         <property name="text">
+          <string>Mot reçu (Hex) :</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0" colspan="2">
+        <widget class="QLineEdit" name="lineCorrectedHexa">
+         <property name="text">
+          <string>0x</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="labelCorrected">
+         <property name="text">
+          <string>Mot corrigé :</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="2">
+        <widget class="QLabel" name="labelRxBin">
+         <property name="text">
+          <string>Mot reçu (bin):</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="2">
+        <widget class="QLabel" name="labelRX">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;RX&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="labelErrordetect">
+         <property name="text">
+          <string>Nombre erreur détectées :</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="QLineEdit" name="lineRxHexa"/>
+       </item>
+       <item row="8" column="0" colspan="2">
+        <widget class="QLineEdit" name="lineCorrectedBin">
+         <property name="text">
+          <string>0b</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>Single octet transmission</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>Multiple octet transmission</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QPushButton" name="pushButtonTx">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Tramsettre</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0" colspan="3">
+     <widget class="Line" name="line_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="1">
+     <widget class="QPushButton" name="pushButtonTxMulti">
+      <property name="text">
+       <string>Transmettre</string>
+      </property>
      </widget>
     </item>
     <item row="0" column="0" colspan="3">
@@ -564,6 +535,97 @@
       </layout>
      </widget>
     </item>
+    <item row="6" column="0" colspan="3">
+     <widget class="Line" name="line">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="0" rowspan="3">
+     <widget class="QFrame" name="frameRXmulti">
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_5">
+       <item row="2" column="0">
+        <widget class="QLabel" name="labelNberreurRX">
+         <property name="text">
+          <string>Nombre erreur induite (aléatoire):</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="labelInputRx">
+         <property name="text">
+          <string>Texte à transmettre (ascii):</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QSpinBox" name="nberrorRx"/>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QPlainTextEdit" name="textTxMulti"/>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="11" column="2" rowspan="3">
+     <widget class="QFrame" name="frameRXMulti">
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_6">
+       <item row="7" column="0">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>Correction:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="0" colspan="4">
+        <widget class="QTextBrowser" name="textRxMultiCorrected"/>
+       </item>
+       <item row="4" column="0" colspan="4">
+        <widget class="QTextBrowser" name="textRxMultiBrut"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>Reception brut :</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="3">
+        <widget class="QLineEdit" name="nbErreurRxMulti"/>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>Nombre erreur détecté:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QLineEdit" name="nbOctetRxMulti"/>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Nombre octet reçu:</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
    </layout>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -571,7 +633,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>883</width>
+     <width>879</width>
      <height>22</height>
     </rect>
    </property>
